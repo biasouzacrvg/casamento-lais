@@ -1,0 +1,148 @@
+.navbar-header a.tak-navbar-brand.logo {
+    height: auto;
+    color: #fff;
+    margin-top: -5px;
+}
+
+.team-info {
+    height: 345px;
+}
+
+
+#counter {
+    background: url(../../images/banners/countdown-mobile.jpeg) center center no-repeat;
+}
+@media (max-width: 768px) {
+    .team-info {
+        height: 455px;
+    }
+
+    #counter {
+        background: url(../../images/banners/countdown-mobile.jpeg) center center no-repeat;
+    }
+}
+
+
+
+.team-info h6 {
+    font-size: 15px;
+}
+
+.tak-thanks-list-item {
+    margin-bottom: 0;
+}
+
+#hero small {
+    font-family: "Varela Round", sans-serif;
+
+}
+
+#googleMap {
+    height: 500px;
+}
+
+#schedule {
+    padding-bottom: 0;
+}
+
+
+@media(max-width: 738px) {
+    ul.customer-logos li.engagement-vertical {
+        height: 274px;
+    }
+
+    ul.customer-logos li.engagement-horizontal {
+        height: 192px;
+    }
+
+    .customer-logo {
+        padding: 0 8px;
+    }
+
+    .event-layout #hero {
+        background: url(../../images/banners/landing.jpeg) center center no-repeat;
+    }
+}
+
+@media (min-width: 768px) {
+    ul.how-it-works-col li:first-child:hover .how-it-works-info,
+    ul.how-it-works-col li:first-child:hover .how-it-works-info h4,
+    ul.how-it-works-col li:first-child:hover .how-it-works-info p,
+    ul.how-it-works-col li:first-child:hover .how-it-works-info p strong {
+        color: #ffffff;
+    }
+
+
+    ul.how-it-works-col li:nth-child(2):hover .how-it-works-info,
+    ul.how-it-works-col li:nth-child(2):hover .how-it-works-info h4,
+    ul.how-it-works-col li:nth-child(2):hover .how-it-works-info p,
+    ul.how-it-works-col li:nth-child(2):hover .how-it-works-info p strong {
+        color: #fff;
+    }
+
+
+    ul.how-it-works-col li:last-child:hover .how-it-works-info,
+    ul.how-it-works-col li:last-child:hover .how-it-works-info h4,
+    ul.how-it-works-col li:last-child:hover .how-it-works-info p,
+    ul.how-it-works-col li:last-child:hover .how-it-works-info p strong {
+        color: #fff;
+    }
+}
+
+#galleryModalBody {
+    max-height: 95vh;
+}
+
+#galleryModalBody .carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,.1) 0,rgba(0,0,0,.0001) 100%);
+}
+
+#galleryModalBody .carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.1) 100%);
+}
+
+#galleryModalBody a>.icon-cross {
+    font-size: 20px;
+}
+
+#galleryCarousel a.disabled {
+    cursor: default;
+}
+
+#galleryCarousel a.disabled:hover {
+    cursor: default;
+    opacity: 0.5;
+}
+
+#galleryCarousel:focus {
+    outline: none;
+}
+
+#customer-story .customer-logo {
+    cursor: pointer;
+}
+
+.tak-gallery-img {
+    margin: auto;
+    max-height: 80vh;
+}
+
+.tak-margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+#roomBlockDetails {
+    max-height: 82vh; overflow-y: auto;
+}
+
+#roomBlockDetails>.col-xs-12>h5 {
+    margin: 26px 0 26px 0;
+}
+
+.tak-padding-top-25 {
+    padding-top: 25px;
+}
+
+.tak-font-size-13 {
+    font-size: 13px;
+}
